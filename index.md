@@ -52,3 +52,4 @@
 - [[wiki/sources/26-学习进度与问题清单-b22edbf7.md|Sage 学习进度与问题清单]] — obsidian
 - [[wiki/sources/03-codingruntime运行时组装-75740fd7.md|CodingRuntime 运行时组装]] — obsidian
 - [[wiki/sources/40-v6-9-provider推理与用量收束复盘-4a018d32.md|V6.9 Provider、推理与用量收束复盘]] — obsidian
+- [[wiki/sources/22-sol子agent开发顺序与验收-23657801.md|Sol 子 Agent 开发顺序与验收]] — obsidian

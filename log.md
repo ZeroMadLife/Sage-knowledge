@@ -268,3 +268,9 @@
 - proposal: `kprop_d371674559ca4a904464e35b58abb285`
 - source revision: `sha256:1f3fcfe8cdca6a4092ef83c4890a678c69a1d8b6e2a02cc22ee0402920560375`
 - target: `[[wiki/sources/40-v6-9-provider推理与用量收束复盘-4a018d32.md]]`
+
+## [2026-07-15T15:45:18.895022+00:00] ingest | Sol 子 Agent 开发顺序与验收
+
+- proposal: `kprop_72bae83de315d9e9741f566766afe9fb`
+- source revision: `sha256:80f9909970bbba09a7bea3347cd003aa34a0bd40231a98891d0473a66d3bdd6a`
+- target: `[[wiki/sources/22-sol子agent开发顺序与验收-23657801.md]]`
