@@ -1,0 +1,5 @@
+.DS_Store
+.sage/*.sqlite3
+.sage/*.sqlite3-wal
+.sage/*.sqlite3-shm
+reviews/*.tmp
