@@ -2,4 +2,5 @@
 .sage/*.sqlite3
 .sage/*.sqlite3-wal
 .sage/*.sqlite3-shm
+.sage/*.lock
 reviews/*.tmp
