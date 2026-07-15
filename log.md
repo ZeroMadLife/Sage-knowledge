@@ -190,3 +190,9 @@
 - proposal: `kprop_bdefdb19014e83ed6a019fca86f6cbbb`
 - source revision: `sha256:48a44bd1ae6c2ba555506429c5be493f9513570a9b7e70088e78782495a8a30b`
 - target: `[[wiki/sources/25-记忆与dream实现复盘-27f4530c.md]]`
+
+## [2026-07-15T15:45:16.819497+00:00] ingest | Sage 个人 AI 学习助手重定位与路线校准
+
+- proposal: `kprop_60c4830ac77777ec3f382bff698b304d`
+- source revision: `sha256:716a630eda0a8748be33134a6da915b27b6d38f6adde296769ebfb07d106ed10`
+- target: `[[wiki/sources/31-sage个人ai学习助手重定位与路线校准-49c3f6e3.md]]`
