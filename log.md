@@ -304,3 +304,9 @@
 - proposal: `kprop_6edd9b8eb7762484c840cee8429998da`
 - source revision: `sha256:181ff5a9e9e76b1dd45652d96482a89283a798b4c34381dce084ed5dfbc3c3d1`
 - target: `[[wiki/sources/24-v6-6运行时接线与api复盘-2cc66fe4.md]]`
+
+## [2026-07-15T15:45:19.851390+00:00] ingest | Benchmark 与测试体系
+
+- proposal: `kprop_28dc7df92c2884363a205008aa046627`
+- source revision: `sha256:4909a162745ed8abca8d77f20414c6d3cce07081b4e49515f883677fa102388f`
+- target: `[[wiki/sources/14-benchmark与测试体系-eb36c03f.md]]`
