@@ -166,3 +166,9 @@
 - proposal: `kprop_20fc3169ff193d94e0552fec1cecb070`
 - source revision: `sha256:0b13a637d26c17274e3ff164f19645ae198666723dfb5123d6d6f11432fd3ea7`
 - target: `[[wiki/sources/27-v6-9持久时间线与运行重连复盘-a32ca79d.md]]`
+
+## [2026-07-15T15:45:16.309176+00:00] ingest | V6.9 时间线 404 修复与 V7 控制面启动
+
+- proposal: `kprop_96367e5b4154e1c6c9a4a667dfd41ee4`
+- source revision: `sha256:a96258be1a538bdd242c7fcbec0a92b356a922862324d34d44280e41d28b2511`
+- target: `[[wiki/sources/34-v6-9时间线404修复与v7控制面启动-09bea821.md]]`

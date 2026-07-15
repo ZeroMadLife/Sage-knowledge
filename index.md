@@ -35,3 +35,4 @@
 - [[wiki/sources/50-v7-2自我生长知识平台设计复盘-fdc4ed4f.md|V7.2 自我生长知识平台设计复盘]] — obsidian
 - [[wiki/sources/32-sage-learning-mvp-planmode交接-98583340.md|Sage Learning MVP Plan Mode 交接]] — obsidian
 - [[wiki/sources/27-v6-9持久时间线与运行重连复盘-a32ca79d.md|V6.9 持久时间线与运行重连复盘]] — obsidian
+- [[wiki/sources/34-v6-9时间线404修复与v7控制面启动-09bea821.md|V6.9 时间线 404 修复与 V7 控制面启动]] — obsidian
