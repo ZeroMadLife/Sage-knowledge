@@ -226,3 +226,9 @@
 - proposal: `kprop_c33700168c96a1dce085849a4a5c064f`
 - source revision: `sha256:c861c3e2484c3604cc2701458931d28679f85cb58752bdbab173b66887542a16`
 - target: `[[wiki/sources/06-tools-skills与toolsearch-b21647aa.md]]`
+
+## [2026-07-15T15:45:17.811641+00:00] ingest | 一次请求的完整生命周期
+
+- proposal: `kprop_2336a10449e6cd4036f18c80deb15829`
+- source revision: `sha256:a93120405c0ca7d09dee510564cb4c280987f881d9c63de3392d7327071b7ce3`
+- target: `[[wiki/sources/02-一次请求的完整生命周期-f767c38f.md]]`
