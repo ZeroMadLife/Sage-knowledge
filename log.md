@@ -238,3 +238,9 @@
 - proposal: `kprop_92578a8d89ac7badff32ca243606f4d7`
 - source revision: `sha256:e29236393bc32fa8463c15c56231df12ff85a9f84f7dcad4508317106d7dad98`
 - target: `[[wiki/sources/42-v6-9聊天完成态与审计收束复盘-31e5af1a.md]]`
+
+## [2026-07-15T15:45:18.123377+00:00] ingest | API、WebSocket 与事件协议
+
+- proposal: `kprop_f22fa852618e9564cff600059d3ad4ed`
+- source revision: `sha256:336a1a4a873698ffb02a44f801651d7657be534d5a84c20ac18ce46db634779e`
+- target: `[[wiki/sources/12-api-websocket与事件协议-ba33c544.md]]`

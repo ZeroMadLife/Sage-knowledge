@@ -47,3 +47,4 @@
 - [[wiki/sources/06-tools-skills与toolsearch-b21647aa.md|Tools、Skills 与 Tool Search]] — obsidian
 - [[wiki/sources/02-一次请求的完整生命周期-f767c38f.md|一次请求的完整生命周期]] — obsidian
 - [[wiki/sources/42-v6-9聊天完成态与审计收束复盘-31e5af1a.md|V6.9 聊天完成态与审计收束复盘]] — obsidian
+- [[wiki/sources/12-api-websocket与事件协议-ba33c544.md|API、WebSocket 与事件协议]] — obsidian
