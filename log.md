@@ -184,3 +184,9 @@
 - proposal: `kprop_b3aa0c70ec81c9ea024406eddee42ed9`
 - source revision: `sha256:f8141b7b18a1dcf1bb824f1763f4723ff074b48bc3f4de82c3d847027f1c036d`
 - target: `[[wiki/sources/33-v6-9前端交接与后端聚焦-4c2a286a.md]]`
+
+## [2026-07-15T15:45:16.660395+00:00] ingest | 记忆与 Dream 实现复盘
+
+- proposal: `kprop_bdefdb19014e83ed6a019fca86f6cbbb`
+- source revision: `sha256:48a44bd1ae6c2ba555506429c5be493f9513570a9b7e70088e78782495a8a30b`
+- target: `[[wiki/sources/25-记忆与dream实现复盘-27f4530c.md]]`
