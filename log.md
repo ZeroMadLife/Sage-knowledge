@@ -160,3 +160,9 @@
 - proposal: `kprop_c936cf744f18c36c6641ab8f705ce615`
 - source revision: `sha256:bfb75775226ea8db78f41ce117e5cb87fc52e32b2e8adfcd87fdcb1736cfb20e`
 - target: `[[wiki/sources/32-sage-learning-mvp-planmode交接-98583340.md]]`
+
+## [2026-07-15T15:45:16.216355+00:00] ingest | V6.9 持久时间线与运行重连复盘
+
+- proposal: `kprop_20fc3169ff193d94e0552fec1cecb070`
+- source revision: `sha256:0b13a637d26c17274e3ff164f19645ae198666723dfb5123d6d6f11432fd3ea7`
+- target: `[[wiki/sources/27-v6-9持久时间线与运行重连复盘-a32ca79d.md]]`
