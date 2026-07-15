@@ -70,3 +70,4 @@
 - [[wiki/sources/21-sage-v6-6-v6-8上下文记忆dream设计-b62b964b.md|Sage V6.6-V6.8 上下文、记忆与 Dream 设计]] — obsidian
 - [[wiki/sources/20-hermes-studio前端对标研究-33ae513d.md|Hermes Studio 前端对标研究]] — obsidian
 - [[wiki/sources/18-上下文压缩对标研究-02ec18cd.md|上下文压缩对标研究]] — obsidian
+- [[wiki/sources/60-v7-3-0历史知识债务收口与自治审核-0b3140e6.md|V7.3.0 历史知识债务收口与自治审核]] — obsidian

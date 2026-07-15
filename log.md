@@ -376,3 +376,9 @@
 - proposal: `kprop_f6e21540ce6389bd64fcecdbfdb1e13e`
 - source revision: `sha256:f1dec18b55be430b34600a74f94deea281d6f4f1a9d1ffe673e76ded4c4f3b5d`
 - target: `[[wiki/sources/18-上下文压缩对标研究-02ec18cd.md]]`
+
+## [2026-07-15T15:51:26.168882+00:00] ingest | V7.3.0 历史知识债务收口与自治审核
+
+- proposal: `kprop_a49ca33f1f7d2f18ee7ca468f0ebc191`
+- source revision: `sha256:9daed94d132dafc4e80e2ffb12bdd9a48208620d20aae7a12f7e928e514a50b9`
+- target: `[[wiki/sources/60-v7-3-0历史知识债务收口与自治审核-0b3140e6.md]]`
