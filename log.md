@@ -352,3 +352,9 @@
 - proposal: `kprop_1e404e1be26099fb603c514b73be1911`
 - source revision: `sha256:5a2b3efd66cac08ac20154e5955630f8677c946f1c736177ab9bd8c5219a1799`
 - target: `[[wiki/sources/15-v6源码复盘与技术债-cf68a087.md]]`
+
+## [2026-07-15T15:45:21.007545+00:00] ingest | V6.9 中文工作台与会话导航复盘
+
+- proposal: `kprop_5b17ae204495233562c3c3a0b4061811`
+- source revision: `sha256:baec6b54146ed5e5f7ef7d12b5714f4b9d744a9b551dfaef6989cd63a930b753`
+- target: `[[wiki/sources/28-v6-9中文工作台与会话导航复盘-ef4ab81d.md]]`

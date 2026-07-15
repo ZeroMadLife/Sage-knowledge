@@ -66,3 +66,4 @@
 - [[wiki/sources/17-动手实验-2da2e4b5.md|Sage 源码动手实验]] — obsidian
 - [[wiki/sources/29-v6-9交付收口与下一阶段预告-8dc865e0.md|V6.9 交付收口与下一阶段预告]] — obsidian
 - [[wiki/sources/15-v6源码复盘与技术债-cf68a087.md|V6 源码复盘与技术债]] — obsidian
+- [[wiki/sources/28-v6-9中文工作台与会话导航复盘-ef4ab81d.md|V6.9 中文工作台与会话导航复盘]] — obsidian
