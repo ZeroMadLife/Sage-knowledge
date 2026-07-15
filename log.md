@@ -286,3 +286,9 @@
 - proposal: `kprop_9ef522012bcf2bf1d6edb60891d1096b`
 - source revision: `sha256:c3ec38b1d98b221868458ebfcba51c134413ae0d10af2834dd9f1efa98731760`
 - target: `[[wiki/sources/49-v7部署流程与github-actions-cicd学习路线-a4f3eed9.md]]`
+
+## [2026-07-15T15:45:19.398012+00:00] ingest | Sage 总体架构
+
+- proposal: `kprop_b09fb35ba633e0e9d94ba75dd707297d`
+- source revision: `sha256:991fed0318cede0033e9f84805303b3b54d30333652f2c18f3c99bf10865cc0d`
+- target: `[[wiki/sources/01-sage总体架构-3f827988.md]]`

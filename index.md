@@ -55,3 +55,4 @@
 - [[wiki/sources/22-sol子agent开发顺序与验收-23657801.md|Sol 子 Agent 开发顺序与验收]] — obsidian
 - [[wiki/sources/13-前端codingworkbench-6a18fec1.md|前端 Coding Workbench]] — obsidian
 - [[wiki/sources/49-v7部署流程与github-actions-cicd学习路线-a4f3eed9.md|V7 部署流程与 GitHub Actions CI/CD 学习路线]] — obsidian
+- [[wiki/sources/01-sage总体架构-3f827988.md|Sage 总体架构]] — obsidian
