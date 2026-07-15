@@ -62,3 +62,4 @@
 - [[wiki/sources/30-v6-9阶段产出与git收口记录-6b48f807.md|V6.9 阶段产出与 Git 收口记录]] — obsidian
 - [[wiki/sources/08-workspace-git与diff-aad6f4b4.md|Workspace、Git 与 Diff]] — obsidian
 - [[wiki/sources/38-v7-0-github-oauth与云控制面复盘-d711dc8c.md|V7.0 GitHub OAuth 与云控制面复盘]] — obsidian
+- [[wiki/sources/46-v7本地联调与worktree启动链路-c9dd2007.md|V7 本地联调与 worktree 启动链路]] — obsidian

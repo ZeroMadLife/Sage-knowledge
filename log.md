@@ -328,3 +328,9 @@
 - proposal: `kprop_131c9b0c098c7adba246067c048fd0e8`
 - source revision: `sha256:823868f435d77a4f849dce585f53b3dd314279b764c7216ef0dfe1e3b55aaa75`
 - target: `[[wiki/sources/38-v7-0-github-oauth与云控制面复盘-d711dc8c.md]]`
+
+## [2026-07-15T15:45:20.428163+00:00] ingest | V7 本地联调与 worktree 启动链路
+
+- proposal: `kprop_8c84da7cba0de50f66982ae63eac9bec`
+- source revision: `sha256:b3e5d7a6d0ffc90439829d05173c4326453dd4659d3a8bcdff736376dc3c0e40`
+- target: `[[wiki/sources/46-v7本地联调与worktree启动链路-c9dd2007.md]]`
