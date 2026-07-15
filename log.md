@@ -358,3 +358,9 @@
 - proposal: `kprop_5b17ae204495233562c3c3a0b4061811`
 - source revision: `sha256:baec6b54146ed5e5f7ef7d12b5714f4b9d744a9b551dfaef6989cd63a930b753`
 - target: `[[wiki/sources/28-v6-9中文工作台与会话导航复盘-ef4ab81d.md]]`
+
+## [2026-07-15T15:45:21.162996+00:00] ingest | Sage V6.6-V6.8 上下文、记忆与 Dream 设计
+
+- proposal: `kprop_972df20308ef061a4c1ef2cc7899c00b`
+- source revision: `sha256:b30b8899c47ae2784329fc7622b5c7a1c84ef36a0f1cae7258d3c1abd1a44879`
+- target: `[[wiki/sources/21-sage-v6-6-v6-8上下文记忆dream设计-b62b964b.md]]`
