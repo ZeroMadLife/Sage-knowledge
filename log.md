@@ -208,3 +208,9 @@
 - proposal: `kprop_a46a223663e3f6b2398ed0b64640fc2c`
 - source revision: `sha256:533f8842fca35f5a1a62a0a48b8fbed637e6944a47ce61be6dc70b0ba230c585`
 - target: `[[wiki/sources/39-v7-provider与运行体验收口-06315403.md]]`
+
+## [2026-07-15T15:45:17.288102+00:00] ingest | V6.9 聊天主视图收线复盘
+
+- proposal: `kprop_242b9c46fe6510f6765193e1d4a7cfc3`
+- source revision: `sha256:9e5a98a700f7bfd3abe176791c5a5e04e4d55586335d8d9c99e264ca23952a2c`
+- target: `[[wiki/sources/36-v6-9聊天主视图收线复盘-0ceed52d.md]]`
