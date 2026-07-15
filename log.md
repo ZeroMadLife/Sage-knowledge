@@ -118,3 +118,9 @@
 - proposal: `kprop_5e06ca84fb6cfb5aa909c4f0ed9b02b1`
 - source revision: `sha256:7abe4c558b44f0d1aa32d0f7858ecfaf51999af8df17b4462b404521a161d00f`
 - target: `[[wiki/sources/51-v7-2-p2-2a持久知识任务源码复盘-d3091ec5.md]]`
+
+## [2026-07-15T15:45:15.564657+00:00] ingest | V6.9 工作台运行体验收口
+
+- proposal: `kprop_b1445b063e012266b99046300789a16b`
+- source revision: `sha256:16ac67f7d09b876d3d463d9777a0bcdf459bf3650e0009ed48a90c3a332d7f1e`
+- target: `[[wiki/sources/39-v6-9工作台运行体验收口-8d6e25c5.md]]`
