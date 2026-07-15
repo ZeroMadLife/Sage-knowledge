@@ -310,3 +310,9 @@
 - proposal: `kprop_28dc7df92c2884363a205008aa046627`
 - source revision: `sha256:4909a162745ed8abca8d77f20414c6d3cce07081b4e49515f883677fa102388f`
 - target: `[[wiki/sources/14-benchmark与测试体系-eb36c03f.md]]`
+
+## [2026-07-15T15:45:19.970235+00:00] ingest | V6.9 阶段产出与 Git 收口记录
+
+- proposal: `kprop_475ef3bc0fae975b8114a218905a5ea1`
+- source revision: `sha256:a1295e2fc78020ed50dffa1bd51e48480a366c2a18a9d2afcdfb5ac9e5934f0c`
+- target: `[[wiki/sources/30-v6-9阶段产出与git收口记录-6b48f807.md]]`
