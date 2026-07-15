@@ -64,3 +64,9 @@
 - proposal: `kprop_25614cd6cbf02930f590fde1c233c899`
 - source revision: `sha256:580bf4e26df55190ca00e5348ae77a49cfaf4156b948e0bd796d46840e068633`
 - target: `[[wiki/sources/10-session-run与持久化-6a4c7849.md]]`
+
+## [2026-07-15T15:45:14.847013+00:00] ingest | ToolExecutor 与安全治理
+
+- proposal: `kprop_f666c20750a354dbacd78b8ba0139c5c`
+- source revision: `sha256:000446246ad67ace4f83c3719d9a3edd31fa4263c0017186b791ff62bf164886`
+- target: `[[wiki/sources/07-toolexecutor与安全治理-2d73b98a.md]]`

@@ -18,3 +18,4 @@
 - [[wiki/sources/41-v7个人助手知识进化与飞书架构-4016c1f2.md|V7 个人助手知识进化与飞书架构]] — obsidian
 - [[wiki/sources/42-v7-p1个人助手首页源码复盘-3d23c7d1.md|V7-P1 个人助手首页源码复盘]] — obsidian
 - [[wiki/sources/10-session-run与持久化-6a4c7849.md|Session、Run 与持久化]] — obsidian
+- [[wiki/sources/07-toolexecutor与安全治理-2d73b98a.md|ToolExecutor 与安全治理]] — obsidian
