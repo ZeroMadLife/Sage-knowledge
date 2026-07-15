@@ -250,3 +250,9 @@
 - proposal: `kprop_603975dee4e84e398ba94c0145a47f66`
 - source revision: `sha256:f33097add7797cf07a24e4e0f102fd8c8fdea77ce6c565e72bae986c82326f08`
 - target: `[[wiki/sources/48-v7受限staging服务器部署收口-92ee238f.md]]`
+
+## [2026-07-15T15:45:18.429124+00:00] ingest | Sage 学习进度与问题清单
+
+- proposal: `kprop_c16648d770a6d4b0b7c47d500f9f10fe`
+- source revision: `sha256:0d6dd465f7357e05d507f328db0e8955589011ae37f23d444f112aa4388310ed`
+- target: `[[wiki/sources/26-学习进度与问题清单-b22edbf7.md]]`

@@ -49,3 +49,4 @@
 - [[wiki/sources/42-v6-9聊天完成态与审计收束复盘-31e5af1a.md|V6.9 聊天完成态与审计收束复盘]] — obsidian
 - [[wiki/sources/12-api-websocket与事件协议-ba33c544.md|API、WebSocket 与事件协议]] — obsidian
 - [[wiki/sources/48-v7受限staging服务器部署收口-92ee238f.md|V7 受限 Staging 服务器部署收口]] — obsidian
+- [[wiki/sources/26-学习进度与问题清单-b22edbf7.md|Sage 学习进度与问题清单]] — obsidian
