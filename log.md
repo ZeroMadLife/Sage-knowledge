@@ -244,3 +244,9 @@
 - proposal: `kprop_f22fa852618e9564cff600059d3ad4ed`
 - source revision: `sha256:336a1a4a873698ffb02a44f801651d7657be534d5a84c20ac18ce46db634779e`
 - target: `[[wiki/sources/12-api-websocket与事件协议-ba33c544.md]]`
+
+## [2026-07-15T15:45:18.257221+00:00] ingest | V7 受限 Staging 服务器部署收口
+
+- proposal: `kprop_603975dee4e84e398ba94c0145a47f66`
+- source revision: `sha256:f33097add7797cf07a24e4e0f102fd8c8fdea77ce6c565e72bae986c82326f08`
+- target: `[[wiki/sources/48-v7受限staging服务器部署收口-92ee238f.md]]`
