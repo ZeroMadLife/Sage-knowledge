@@ -220,3 +220,9 @@
 - proposal: `kprop_464287c272747cad93a0aa57c256775f`
 - source revision: `sha256:79baf9702cb5dcd857f17812fb3db07ed7748ac0b35f06698a8222b9d437bc29`
 - target: `[[wiki/sources/11-多智能体系统-3000bada.md]]`
+
+## [2026-07-15T15:45:17.636737+00:00] ingest | Tools、Skills 与 Tool Search
+
+- proposal: `kprop_c33700168c96a1dce085849a4a5c064f`
+- source revision: `sha256:c861c3e2484c3604cc2701458931d28679f85cb58752bdbab173b66887542a16`
+- target: `[[wiki/sources/06-tools-skills与toolsearch-b21647aa.md]]`
