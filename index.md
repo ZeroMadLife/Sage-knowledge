@@ -41,3 +41,4 @@
 - [[wiki/sources/25-记忆与dream实现复盘-27f4530c.md|记忆与 Dream 实现复盘]] — obsidian
 - [[wiki/sources/31-sage个人ai学习助手重定位与路线校准-49c3f6e3.md|Sage 个人 AI 学习助手重定位与路线校准]] — obsidian
 - [[wiki/sources/44-飞书cc-connect与claudecode链路收口-a4924f57.md|飞书 cc-connect 与 Claude Code 链路收口]] — obsidian
+- [[wiki/sources/39-v7-provider与运行体验收口-06315403.md|V7 Provider 与运行体验收口]] — obsidian

@@ -202,3 +202,9 @@
 - proposal: `kprop_a6241fbb01b8368ad519d39de7330f7f`
 - source revision: `sha256:cfaf22279dd3a63647ea1186a1898cd3251454b394cfc99e57711cb4fa2f5a26`
 - target: `[[wiki/sources/44-飞书cc-connect与claudecode链路收口-a4924f57.md]]`
+
+## [2026-07-15T15:45:17.115656+00:00] ingest | V7 Provider 与运行体验收口
+
+- proposal: `kprop_a46a223663e3f6b2398ed0b64640fc2c`
+- source revision: `sha256:533f8842fca35f5a1a62a0a48b8fbed637e6944a47ce61be6dc70b0ba230c585`
+- target: `[[wiki/sources/39-v7-provider与运行体验收口-06315403.md]]`
