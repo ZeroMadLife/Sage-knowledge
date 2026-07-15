@@ -28,3 +28,9 @@
 - proposal: `kprop_8f21255290927c67e70d454047e0e17a`
 - source revision: `sha256:0cf7bebc740dada91800356c0a248233e15e05715a5b7aa98db60f01f7946282`
 - target: `[[wiki/sources/47-v7-2可审核知识沉淀源码复盘-bb7b157c.md]]`
+
+## [2026-07-15T15:23:45.056050+00:00] ingest | Sage 学习沉淀模板
+
+- proposal: `kprop_cf5f05bd9bdbd12f3b543970a5847d1c`
+- source revision: `sha256:a0d1ff382a0aa5ba56e7f3d950e8fc5abaf40062d3e5ced515a63c4fddf7dda8`
+- target: `[[wiki/sources/_meta-2026-07-12-sage-learning-session-8f96b27c.md]]`
