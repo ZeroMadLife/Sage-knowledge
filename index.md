@@ -30,3 +30,4 @@
 - [[wiki/sources/39-v6-9工作台运行体验收口-8d6e25c5.md|V6.9 工作台运行体验收口]] — obsidian
 - [[wiki/sources/04-engine与agentloop-41de0156.md|Engine 与 Agent Loop]] — obsidian
 - [[wiki/sources/52-v7固定主工作区与小版本开发约定-54d428ce.md|V7 固定主工作区与小版本开发约定]] — obsidian
+- [[wiki/sources/35-v7-0认证与云工作区控制面复盘-063eb507.md|V7.0 认证与云工作区控制面复盘]] — obsidian

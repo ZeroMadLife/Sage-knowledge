@@ -136,3 +136,9 @@
 - proposal: `kprop_32e17f2b08e3bd55c08f3bd0469e42ae`
 - source revision: `sha256:1358aa1914b5dc421cd3af97951d28f9d223036680d751dfcdb5f35acaa66fc9`
 - target: `[[wiki/sources/52-v7固定主工作区与小版本开发约定-54d428ce.md]]`
+
+## [2026-07-15T15:45:15.834273+00:00] ingest | V7.0 认证与云工作区控制面复盘
+
+- proposal: `kprop_af2d64ffcf4dbf18ca281d2d118d8a0f`
+- source revision: `sha256:0582eaa096e7bbc9fd8efc9f0e2a755d37988619bcb56e8f359b649634cbc388`
+- target: `[[wiki/sources/35-v7-0认证与云工作区控制面复盘-063eb507.md]]`
