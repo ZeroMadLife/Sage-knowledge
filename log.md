@@ -142,3 +142,9 @@
 - proposal: `kprop_af2d64ffcf4dbf18ca281d2d118d8a0f`
 - source revision: `sha256:0582eaa096e7bbc9fd8efc9f0e2a755d37988619bcb56e8f359b649634cbc388`
 - target: `[[wiki/sources/35-v7-0认证与云工作区控制面复盘-063eb507.md]]`
+
+## [2026-07-15T15:45:15.922472+00:00] ingest | V6.9 工具轨迹可见性收口
+
+- proposal: `kprop_8ce65b02dc0892bf4f5e56eff319789f`
+- source revision: `sha256:695a2f10bffcb256aa66147388b4aa03f843d562da1e516783005d262d462de9`
+- target: `[[wiki/sources/43-v6-9工具轨迹可见性收口-be40079f.md]]`
