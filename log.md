@@ -292,3 +292,9 @@
 - proposal: `kprop_b09fb35ba633e0e9d94ba75dd707297d`
 - source revision: `sha256:991fed0318cede0033e9f84805303b3b54d30333652f2c18f3c99bf10865cc0d`
 - target: `[[wiki/sources/01-sage总体架构-3f827988.md]]`
+
+## [2026-07-15T15:45:19.555618+00:00] ingest | 长短记忆与 Dream 对标研究
+
+- proposal: `kprop_25a94ac014e88e1a9fab9886abde2c33`
+- source revision: `sha256:22170b819adaec28540160cadb3f1d05b7d57e07d74905a1a4faec0c3cf6f3ff`
+- target: `[[wiki/sources/19-长短记忆与dream对标研究-2c477946.md]]`
