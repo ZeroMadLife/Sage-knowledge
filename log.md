@@ -94,3 +94,9 @@
 - proposal: `kprop_00672d9a5258e126d3c61cb2643eff8b`
 - source revision: `sha256:71f15f7b228aba1d69bafc85cda6fa971c6a103ec26a0f598a2e9805e41cfe87`
 - target: `[[wiki/sources/45-v7-p1-1共享shell与对话形变源码复盘-f3e08961.md]]`
+
+## [2026-07-15T15:45:15.229582+00:00] ingest | V6.6 上下文实现复盘
+
+- proposal: `kprop_546a72e172b8d6c8377908f7672a3594`
+- source revision: `sha256:00b2bbb9b1bc6ceb3d990a6d5bc83290b11e5dde1dd21dcebbbb0b8e72759075`
+- target: `[[wiki/sources/23-v6-6上下文实现复盘-8ddd55f7.md]]`
