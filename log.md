@@ -214,3 +214,9 @@
 - proposal: `kprop_242b9c46fe6510f6765193e1d4a7cfc3`
 - source revision: `sha256:9e5a98a700f7bfd3abe176791c5a5e04e4d55586335d8d9c99e264ca23952a2c`
 - target: `[[wiki/sources/36-v6-9聊天主视图收线复盘-0ceed52d.md]]`
+
+## [2026-07-15T15:45:17.451627+00:00] ingest | 多智能体系统
+
+- proposal: `kprop_464287c272747cad93a0aa57c256775f`
+- source revision: `sha256:79baf9702cb5dcd857f17812fb3db07ed7748ac0b35f06698a8222b9d437bc29`
+- target: `[[wiki/sources/11-多智能体系统-3000bada.md]]`

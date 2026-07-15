@@ -43,3 +43,4 @@
 - [[wiki/sources/44-飞书cc-connect与claudecode链路收口-a4924f57.md|飞书 cc-connect 与 Claude Code 链路收口]] — obsidian
 - [[wiki/sources/39-v7-provider与运行体验收口-06315403.md|V7 Provider 与运行体验收口]] — obsidian
 - [[wiki/sources/36-v6-9聊天主视图收线复盘-0ceed52d.md|V6.9 聊天主视图收线复盘]] — obsidian
+- [[wiki/sources/11-多智能体系统-3000bada.md|多智能体系统]] — obsidian
