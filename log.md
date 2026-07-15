@@ -70,3 +70,9 @@
 - proposal: `kprop_f666c20750a354dbacd78b8ba0139c5c`
 - source revision: `sha256:000446246ad67ace4f83c3719d9a3edd31fa4263c0017186b791ff62bf164886`
 - target: `[[wiki/sources/07-toolexecutor与安全治理-2d73b98a.md]]`
+
+## [2026-07-15T15:45:14.923232+00:00] ingest | V7.2 本地知识工作区 503 恢复与 P2.2-B 起点
+
+- proposal: `kprop_a54a0bc9c94c52c730857fda91b2d91b`
+- source revision: `sha256:c4453cc196a9b6f9a9e2975251be3f811bc7a193c4014d08690da6d354f3d99c`
+- target: `[[wiki/sources/53-v7-2本地知识工作区503恢复与p2-2b起点-660b9e38.md]]`
