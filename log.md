@@ -196,3 +196,9 @@
 - proposal: `kprop_60c4830ac77777ec3f382bff698b304d`
 - source revision: `sha256:716a630eda0a8748be33134a6da915b27b6d38f6adde296769ebfb07d106ed10`
 - target: `[[wiki/sources/31-sage个人ai学习助手重定位与路线校准-49c3f6e3.md]]`
+
+## [2026-07-15T15:45:16.954449+00:00] ingest | 飞书 cc-connect 与 Claude Code 链路收口
+
+- proposal: `kprop_a6241fbb01b8368ad519d39de7330f7f`
+- source revision: `sha256:cfaf22279dd3a63647ea1186a1898cd3251454b394cfc99e57711cb4fa2f5a26`
+- target: `[[wiki/sources/44-飞书cc-connect与claudecode链路收口-a4924f57.md]]`
