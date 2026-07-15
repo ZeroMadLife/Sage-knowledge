@@ -52,3 +52,9 @@
 - proposal: `kprop_b82fbdd8f60d0de26f47131b8fb69a4b`
 - source revision: `sha256:0c24927042f5f3fa44d30efb741d1427c1a4ed2d7515df92e415856740f23c93`
 - target: `[[wiki/sources/41-v7个人助手知识进化与飞书架构-4016c1f2.md]]`
+
+## [2026-07-15T15:45:14.693128+00:00] ingest | V7-P1 个人助手首页源码复盘
+
+- proposal: `kprop_4585851c8f8a7c205bebd4f61d2ce6dd`
+- source revision: `sha256:87cec8a00ee1aa2393bf94ead9dc9f1458f18f6e0efd79581557b1dfe688f0ec`
+- target: `[[wiki/sources/42-v7-p1个人助手首页源码复盘-3d23c7d1.md]]`
