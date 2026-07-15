@@ -51,3 +51,4 @@
 - [[wiki/sources/48-v7受限staging服务器部署收口-92ee238f.md|V7 受限 Staging 服务器部署收口]] — obsidian
 - [[wiki/sources/26-学习进度与问题清单-b22edbf7.md|Sage 学习进度与问题清单]] — obsidian
 - [[wiki/sources/03-codingruntime运行时组装-75740fd7.md|CodingRuntime 运行时组装]] — obsidian
+- [[wiki/sources/40-v6-9-provider推理与用量收束复盘-4a018d32.md|V6.9 Provider、推理与用量收束复盘]] — obsidian

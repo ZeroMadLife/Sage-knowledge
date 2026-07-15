@@ -262,3 +262,9 @@
 - proposal: `kprop_e2c5ca2fce74af2654a0f6711a5e2ebd`
 - source revision: `sha256:8d24e1bd796c9395b4bf169b49e17c86e4f6e0c7296be0f33b63efa564d707b0`
 - target: `[[wiki/sources/03-codingruntime运行时组装-75740fd7.md]]`
+
+## [2026-07-15T15:45:18.745182+00:00] ingest | V6.9 Provider、推理与用量收束复盘
+
+- proposal: `kprop_d371674559ca4a904464e35b58abb285`
+- source revision: `sha256:1f3fcfe8cdca6a4092ef83c4890a678c69a1d8b6e2a02cc22ee0402920560375`
+- target: `[[wiki/sources/40-v6-9-provider推理与用量收束复盘-4a018d32.md]]`
