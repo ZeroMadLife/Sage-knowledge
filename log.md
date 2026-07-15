@@ -256,3 +256,9 @@
 - proposal: `kprop_c16648d770a6d4b0b7c47d500f9f10fe`
 - source revision: `sha256:0d6dd465f7357e05d507f328db0e8955589011ae37f23d444f112aa4388310ed`
 - target: `[[wiki/sources/26-学习进度与问题清单-b22edbf7.md]]`
+
+## [2026-07-15T15:45:18.597919+00:00] ingest | CodingRuntime 运行时组装
+
+- proposal: `kprop_e2c5ca2fce74af2654a0f6711a5e2ebd`
+- source revision: `sha256:8d24e1bd796c9395b4bf169b49e17c86e4f6e0c7296be0f33b63efa564d707b0`
+- target: `[[wiki/sources/03-codingruntime运行时组装-75740fd7.md]]`
