@@ -40,3 +40,9 @@
 - proposal: `kprop_df1d64ef2ba74ab8625e176c75464b5d`
 - source revision: `sha256:32d41362a56ca6551c5c6619709c54381989ba40b948806279394117d0dcc27f`
 - target: `[[wiki/sources/_meta-2026-07-10-sage-learning-writing-plan-5bfd350c.md]]`
+
+## [2026-07-15T15:45:14.541877+00:00] ingest | Sage Learning 阅读地图
+
+- proposal: `kprop_7e3d651ee6ad5288e48b1f9f707e56d1`
+- source revision: `sha256:1451a2cb585e5fbdf55e62d1872f1d90c2443d9e4713d32ac10430da47207c98`
+- target: `[[wiki/sources/00-reading-map-54a2e4a5.md]]`
