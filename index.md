@@ -32,3 +32,4 @@
 - [[wiki/sources/52-v7固定主工作区与小版本开发约定-54d428ce.md|V7 固定主工作区与小版本开发约定]] — obsidian
 - [[wiki/sources/35-v7-0认证与云工作区控制面复盘-063eb507.md|V7.0 认证与云工作区控制面复盘]] — obsidian
 - [[wiki/sources/43-v6-9工具轨迹可见性收口-be40079f.md|V6.9 工具轨迹可见性收口]] — obsidian
+- [[wiki/sources/50-v7-2自我生长知识平台设计复盘-fdc4ed4f.md|V7.2 自我生长知识平台设计复盘]] — obsidian

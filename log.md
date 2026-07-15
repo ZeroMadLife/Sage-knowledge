@@ -148,3 +148,9 @@
 - proposal: `kprop_8ce65b02dc0892bf4f5e56eff319789f`
 - source revision: `sha256:695a2f10bffcb256aa66147388b4aa03f843d562da1e516783005d262d462de9`
 - target: `[[wiki/sources/43-v6-9工具轨迹可见性收口-be40079f.md]]`
+
+## [2026-07-15T15:45:16.020221+00:00] ingest | V7.2 自我生长知识平台设计复盘
+
+- proposal: `kprop_6c80a63033bcf400796fa014717965f8`
+- source revision: `sha256:e7a1e112e2d8f8e6dba5b67772f95e54a926badbbf5ac8382634dc209ad14ac5`
+- target: `[[wiki/sources/50-v7-2自我生长知识平台设计复盘-fdc4ed4f.md]]`
