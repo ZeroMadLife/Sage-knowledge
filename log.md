@@ -82,3 +82,9 @@
 - proposal: `kprop_1157770da4ed2ab0ae24a787fbc047d3`
 - source revision: `sha256:8dd360b1fd23ec2f37835595396a23eaad8644c9d4faa6e8a7624708801d473f`
 - target: `[[wiki/sources/09-memory系统-db36952c.md]]`
+
+## [2026-07-15T15:45:15.078695+00:00] ingest | V6.9 前端完整交付地图
+
+- proposal: `kprop_76ea39e0f65f8c7c434df9cae6fb82cb`
+- source revision: `sha256:6db8958a8b053fab49ce8a63d18fe2de7dd3e77e1b030cd0288efc7cd5a65341`
+- target: `[[wiki/sources/41-v6-9前端完整交付地图-3a82344c.md]]`
