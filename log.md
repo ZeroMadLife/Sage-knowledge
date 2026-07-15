@@ -382,3 +382,9 @@
 - proposal: `kprop_a49ca33f1f7d2f18ee7ca468f0ebc191`
 - source revision: `sha256:9daed94d132dafc4e80e2ffb12bdd9a48208620d20aae7a12f7e928e514a50b9`
 - target: `[[wiki/sources/60-v7-3-0历史知识债务收口与自治审核-0b3140e6.md]]`
+
+## [2026-07-15T16:17:57.647012+00:00] ingest | V7.3.1 版本化 Hybrid RAG 索引源码复盘
+
+- proposal: `kprop_83c1bea5cc74fbd54fb6edccdd17568d`
+- source revision: `sha256:cde3567d9bf5bf3a693f71fb93451e90c0d731a8a5be926eb26daaf178e93048`
+- target: `[[wiki/sources/61-v7-3-1版本化hybrid-rag索引源码复盘-26a2ed52.md]]`

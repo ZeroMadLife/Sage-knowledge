@@ -1,0 +1,126 @@
+---
+id: page_6ba06f1ce9996ffcccc3a57826a2ed52
+type: source
+title: "V7.3.1 版本化 Hybrid RAG 索引源码复盘"
+status: draft
+visibility: private
+sources:
+  - source_id: src_6ba06f1ce9996ffcccc3a57826a2ed52
+    kind: obsidian
+    path: "61-V7.3.1版本化Hybrid-RAG索引源码复盘.md"
+    revision: sha256:cde3567d9bf5bf3a693f71fb93451e90c0d731a8a5be926eb26daaf178e93048
+raw_snapshot: raw/sources/obsidian/cd/cde3567d9bf5bf3a693f71fb93451e90c0d731a8a5be926eb26daaf178e93048.md
+parser_id: sage.markdown
+parser_version: 1.0.0
+parsed_document_id: pdoc_03da15d47985b6e6cfb5f3c810d46859
+---
+
+# V7.3.1 版本化 Hybrid RAG 索引源码复盘
+
+> 本页是可审核的来源投影。后续 LLM 综合必须继续保留来源 revision。
+
+## 来源内容
+
+# V7.3.1 版本化 Hybrid RAG 索引源码复盘
+
+## 版本证据
+
+- Sage source commit：`576423f5b78f5151ba9a4cf7e551a4c971d226fb`
+- 开发分支：`dev/sage-v7`
+- schema version：6
+- 本地 backend：`sqlite-fts5+hashing`
+- embedding baseline：`sage.hashing@1.0.0`，256 维
+- 真实索引：63/63 page revisions ready，1299 active chunks，1367 total chunks，0 error
+
+## 本版解决的问题
+
+V7.3.0 已经能把来源沉淀成版本化 Wiki，但 Agent 还不能检索这些内容。V7.3.1 增加一层可丢弃、可重建的检索投影：canonical truth 仍是 Git Wiki、page revision、ParseArtifact 和 source revision；FTS、embedding 与 RRF 只是加速读取，绝不能反向成为唯一事实源。
+
+## KnowledgeChunk 契约
+
+每个 chunk 至少记录：
+
+- `workspace_id/page_id/page_revision/page_path`
+- `source_id/source_revision/source_kind/source_relative_path`
+- `proposal_id/artifact_id/block_id/ordinal`
+- `title/heading_path/page_number/text/token_count/content_hash`
+- `visibility/language/active`
+
+chunk 优先复用 parser 生成的 heading、段落、列表、代码、表格与页码 block。只有单个 semantic block 超过 4000 字符时才二次切片，并保留 160 字符 overlap；不是先把整篇文档按固定长度暴力切开。`chunk_id` 由 page revision、block ID、part ordinal 和 content hash 派生，因此同一 revision 全量重建后 ID 不变。
+
+## 中文 FTS 与 dense baseline
+
+SQLite `unicode61` 默认无法直接用“知识”匹配连续的“知识检索”。本版在写入 FTS5 前额外投影：
+
+- 英文、数字、下划线 token；
+- 中文单字；
+- 中文相邻双字词。
+
+这样既保留 SQLite BM25 排名，又能覆盖中文标题和正文。dense 分路使用 feature hashing 生成 256 维归一化向量，无网络、无模型下载、完全确定性。它只是本地开发 baseline，不是强语义 embedding，不能把其结果宣传成生产级向量检索。
+
+云端 adapter 目标保持为 PostgreSQL FTS + pgvector。后续替换 embedding provider/backend 时，chunk、citation、filter 和 RRF 契约不变。
+
+## Hybrid Retrieval 与 RRF
+
+查询执行顺序：
+
+1. 在 recall 前应用 workspace、visibility、source ID 和 page revision filter。
+2. FTS5 召回 sparse candidates。
+3. 当前模型向量召回 dense candidates。
+4. 使用 `1 / (60 + rank)` 做 Reciprocal Rank Fusion。
+5. 按融合分数和稳定 chunk ID 排序。
+
+RRF 只使用各分路排名，不需要把 BM25 与 cosine 的不同分数范围强行归一化。默认查询只检索 active/current revision；显式传入旧 `page_revision` 时，可以复现历史回答当时使用的证据。
+
+每个命中项已经携带稳定 `citation_id`、page/source revision、block/chunk ID、sparse/dense rank 与 score。V7.3.2 将把这些字段开放为检索 API，并组装进 Agent 工具结果。
+
+## 索引生命周期与失败恢复
+
+- schema v5 升级到 v6 时自动回填全部历史 page revision。
+- 新 Wiki projection 写入 page revision 后同步生成 chunk、FTS 和 embedding。
+- 新 revision 激活时，同 page 的旧 chunks 保留但 `active=0`。
+- 每个 revision 使用 SQLite savepoint；中途失败会完整撤回该 revision 的派生数据，再记录 `error`。
+- `POST /api/v1/knowledge/index/rebuild` 可从 canonical revisions 全量重建。
+- Knowledge Workspace 显示 revision/chunk/error 状态和“重建索引”入口。
+
+## Benchmark 证据
+
+运行命令：
+
+```bash
+python -m scripts.benchmark_knowledge_retrieval
+```
+
+当前提交了 50 条 Golden Queries，真实本地结果：
+
+- Recall@10：1.0
+- MRR：1.0
+- NDCG@10：1.0
+- HitRate：1.0
+- P95：46.917 ms
+- 未命中：0
+
+这 50 条当前主要覆盖模块标题、版本记录和项目定位，是结构化 smoke benchmark。它证明索引、中文召回、版本过滤和排名链路可用，但不能证明跨文档推理、冲突处理或复杂自然语言语义检索已经达到商用水平。V7.3.2 必须增加事实型、跨来源、时序冲突和无答案 case。
+
+## 验证证据
+
+- 后端全量：`1125 passed`
+- 前端全量：`290 passed`
+- Knowledge/API 定向：`67 passed`
+- `ruff check .`：通过
+- `mypy`：144 个文件通过
+- `npm run build`：通过
+- Playwright：桌面与 `390×844` 手机视口通过
+- 失败注入：第二个 chunk embedding 失败时，canonical projection 完成、派生 chunk 为 0、index error 为 1；rebuild 后恢复 ready
+
+## 下一阶段边界
+
+V7.3.2 将实现：
+
+1. `RetrievalBundle` 与稳定 citation API；
+2. Knowledge Workspace 搜索/问答入口、来源列表、结果片段和引用 Inspector；
+3. Coding/Assistant Harness 的只读 `knowledge_search` 工具；
+4. token budget、去重、多来源覆盖和无答案门槛；
+5. 更困难的 Golden Queries 与 citation correctness。
+
+V7.3.1 不包含 LLM 回答生成、Neo4j、Louvain、HR 公共 Agent、飞书 Bot 或公网部署。
