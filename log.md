@@ -322,3 +322,9 @@
 - proposal: `kprop_153d958726ddb4f8843be02f8452ae41`
 - source revision: `sha256:de97f64f9496f270edf70040446d48dbc212e9e4c1c0dd4d6f0e2de7a7672810`
 - target: `[[wiki/sources/08-workspace-git与diff-aad6f4b4.md]]`
+
+## [2026-07-15T15:45:20.284827+00:00] ingest | V7.0 GitHub OAuth 与云控制面复盘
+
+- proposal: `kprop_131c9b0c098c7adba246067c048fd0e8`
+- source revision: `sha256:823868f435d77a4f849dce585f53b3dd314279b764c7216ef0dfe1e3b55aaa75`
+- target: `[[wiki/sources/38-v7-0-github-oauth与云控制面复盘-d711dc8c.md]]`
