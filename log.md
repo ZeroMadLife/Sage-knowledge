@@ -334,3 +334,9 @@
 - proposal: `kprop_8c84da7cba0de50f66982ae63eac9bec`
 - source revision: `sha256:b3e5d7a6d0ffc90439829d05173c4326453dd4659d3a8bcdff736376dc3c0e40`
 - target: `[[wiki/sources/46-v7本地联调与worktree启动链路-c9dd2007.md]]`
+
+## [2026-07-15T15:45:20.556361+00:00] ingest | Sage 源码动手实验
+
+- proposal: `kprop_6684418809b0ef8f7b58ce178d25c47b`
+- source revision: `sha256:1619e0940164b82819da5d16f94a3b46ba326f86bf8a8ac84dffd587fa536124`
+- target: `[[wiki/sources/17-动手实验-2da2e4b5.md]]`
