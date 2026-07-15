@@ -340,3 +340,9 @@
 - proposal: `kprop_6684418809b0ef8f7b58ce178d25c47b`
 - source revision: `sha256:1619e0940164b82819da5d16f94a3b46ba326f86bf8a8ac84dffd587fa536124`
 - target: `[[wiki/sources/17-动手实验-2da2e4b5.md]]`
+
+## [2026-07-15T15:45:20.688782+00:00] ingest | V6.9 交付收口与下一阶段预告
+
+- proposal: `kprop_e99dce46a0f32cba644546d9e0a3c2e6`
+- source revision: `sha256:2f79968e8780da4f5117bb95caf5cc6668eb95ed47562623e2162b946516308c`
+- target: `[[wiki/sources/29-v6-9交付收口与下一阶段预告-8dc865e0.md]]`

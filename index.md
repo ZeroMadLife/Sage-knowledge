@@ -64,3 +64,4 @@
 - [[wiki/sources/38-v7-0-github-oauth与云控制面复盘-d711dc8c.md|V7.0 GitHub OAuth 与云控制面复盘]] — obsidian
 - [[wiki/sources/46-v7本地联调与worktree启动链路-c9dd2007.md|V7 本地联调与 worktree 启动链路]] — obsidian
 - [[wiki/sources/17-动手实验-2da2e4b5.md|Sage 源码动手实验]] — obsidian
+- [[wiki/sources/29-v6-9交付收口与下一阶段预告-8dc865e0.md|V6.9 交付收口与下一阶段预告]] — obsidian
