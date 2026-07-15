@@ -106,3 +106,9 @@
 - proposal: `kprop_b3e3272b0fa4368b199314898c9848a3`
 - source revision: `sha256:1f46bc88c12202c4e8f9947b5eb4e9f0394162c399b331071415af56dd7621e0`
 - target: `[[wiki/sources/37-v6-9-hermes门面与工具恢复收口-190a3480.md]]`
+
+## [2026-07-15T15:45:15.388156+00:00] ingest | 源码组件速查表
+
+- proposal: `kprop_60cdfd8beda4a3eeae0cd4b9724fc5ca`
+- source revision: `sha256:1b9559657ca0cab9ac294ac9188152b142200e6c04808bf7462f53577da4719d`
+- target: `[[wiki/sources/16-源码组件速查表-b66cf5b4.md]]`

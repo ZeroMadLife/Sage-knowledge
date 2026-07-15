@@ -25,3 +25,4 @@
 - [[wiki/sources/45-v7-p1-1共享shell与对话形变源码复盘-f3e08961.md|V7-P1.1 共享 Shell 与对话形变源码复盘]] — obsidian
 - [[wiki/sources/23-v6-6上下文实现复盘-8ddd55f7.md|V6.6 上下文实现复盘]] — obsidian
 - [[wiki/sources/37-v6-9-hermes门面与工具恢复收口-190a3480.md|V6.9 Hermes 门面与工具恢复收口]] — obsidian
+- [[wiki/sources/16-源码组件速查表-b66cf5b4.md|源码组件速查表]] — obsidian
