@@ -178,3 +178,9 @@
 - proposal: `kprop_d01e64a00b5ba723d58e42fa27b1da49`
 - source revision: `sha256:a3081504fb39361622ebc9f638f31c891979abe31b7b4d436f867b07a7791003`
 - target: `[[wiki/sources/05-context与promptcaching-789b3b46.md]]`
+
+## [2026-07-15T15:45:16.486095+00:00] ingest | V6.9 前端交接与后端聚焦
+
+- proposal: `kprop_b3aa0c70ec81c9ea024406eddee42ed9`
+- source revision: `sha256:f8141b7b18a1dcf1bb824f1763f4723ff074b48bc3f4de82c3d847027f1c036d`
+- target: `[[wiki/sources/33-v6-9前端交接与后端聚焦-4c2a286a.md]]`
