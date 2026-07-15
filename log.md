@@ -370,3 +370,9 @@
 - proposal: `kprop_b73018ca6d4dae20ecf7c1cd309ee2d9`
 - source revision: `sha256:596ffb6f8e6083657a49daae42a517fb7a6dd76b4f9893c71f762c66e76bd79e`
 - target: `[[wiki/sources/20-hermes-studio前端对标研究-33ae513d.md]]`
+
+## [2026-07-15T15:45:21.377229+00:00] ingest | 上下文压缩对标研究
+
+- proposal: `kprop_f6e21540ce6389bd64fcecdbfdb1e13e`
+- source revision: `sha256:f1dec18b55be430b34600a74f94deea281d6f4f1a9d1ffe673e76ded4c4f3b5d`
+- target: `[[wiki/sources/18-上下文压缩对标研究-02ec18cd.md]]`
