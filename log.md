@@ -298,3 +298,9 @@
 - proposal: `kprop_25a94ac014e88e1a9fab9886abde2c33`
 - source revision: `sha256:22170b819adaec28540160cadb3f1d05b7d57e07d74905a1a4faec0c3cf6f3ff`
 - target: `[[wiki/sources/19-长短记忆与dream对标研究-2c477946.md]]`
+
+## [2026-07-15T15:45:19.712914+00:00] ingest | V6.6 Runtime 接线与 API 复盘
+
+- proposal: `kprop_6edd9b8eb7762484c840cee8429998da`
+- source revision: `sha256:181ff5a9e9e76b1dd45652d96482a89283a798b4c34381dce084ed5dfbc3c3d1`
+- target: `[[wiki/sources/24-v6-6运行时接线与api复盘-2cc66fe4.md]]`
