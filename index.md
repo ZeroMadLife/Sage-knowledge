@@ -17,3 +17,4 @@
 - [[wiki/sources/00-reading-map-54a2e4a5.md|Sage Learning 阅读地图]] — obsidian
 - [[wiki/sources/41-v7个人助手知识进化与飞书架构-4016c1f2.md|V7 个人助手知识进化与飞书架构]] — obsidian
 - [[wiki/sources/42-v7-p1个人助手首页源码复盘-3d23c7d1.md|V7-P1 个人助手首页源码复盘]] — obsidian
+- [[wiki/sources/10-session-run与持久化-6a4c7849.md|Session、Run 与持久化]] — obsidian

@@ -58,3 +58,9 @@
 - proposal: `kprop_4585851c8f8a7c205bebd4f61d2ce6dd`
 - source revision: `sha256:87cec8a00ee1aa2393bf94ead9dc9f1458f18f6e0efd79581557b1dfe688f0ec`
 - target: `[[wiki/sources/42-v7-p1个人助手首页源码复盘-3d23c7d1.md]]`
+
+## [2026-07-15T15:45:14.766724+00:00] ingest | Session、Run 与持久化
+
+- proposal: `kprop_25614cd6cbf02930f590fde1c233c899`
+- source revision: `sha256:580bf4e26df55190ca00e5348ae77a49cfaf4156b948e0bd796d46840e068633`
+- target: `[[wiki/sources/10-session-run与持久化-6a4c7849.md]]`
