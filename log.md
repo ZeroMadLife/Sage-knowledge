@@ -76,3 +76,9 @@
 - proposal: `kprop_a54a0bc9c94c52c730857fda91b2d91b`
 - source revision: `sha256:c4453cc196a9b6f9a9e2975251be3f811bc7a193c4014d08690da6d354f3d99c`
 - target: `[[wiki/sources/53-v7-2本地知识工作区503恢复与p2-2b起点-660b9e38.md]]`
+
+## [2026-07-15T15:45:15.002580+00:00] ingest | Memory 系统
+
+- proposal: `kprop_1157770da4ed2ab0ae24a787fbc047d3`
+- source revision: `sha256:8dd360b1fd23ec2f37835595396a23eaad8644c9d4faa6e8a7624708801d473f`
+- target: `[[wiki/sources/09-memory系统-db36952c.md]]`
