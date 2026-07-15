@@ -154,3 +154,9 @@
 - proposal: `kprop_6c80a63033bcf400796fa014717965f8`
 - source revision: `sha256:e7a1e112e2d8f8e6dba5b67772f95e54a926badbbf5ac8382634dc209ad14ac5`
 - target: `[[wiki/sources/50-v7-2自我生长知识平台设计复盘-fdc4ed4f.md]]`
+
+## [2026-07-15T15:45:16.120655+00:00] ingest | Sage Learning MVP Plan Mode 交接
+
+- proposal: `kprop_c936cf744f18c36c6641ab8f705ce615`
+- source revision: `sha256:bfb75775226ea8db78f41ce117e5cb87fc52e32b2e8adfcd87fdcb1736cfb20e`
+- target: `[[wiki/sources/32-sage-learning-mvp-planmode交接-98583340.md]]`
