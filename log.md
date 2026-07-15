@@ -34,3 +34,9 @@
 - proposal: `kprop_cf5f05bd9bdbd12f3b543970a5847d1c`
 - source revision: `sha256:a0d1ff382a0aa5ba56e7f3d950e8fc5abaf40062d3e5ced515a63c4fddf7dda8`
 - target: `[[wiki/sources/_meta-2026-07-12-sage-learning-session-8f96b27c.md]]`
+
+## [2026-07-15T15:23:50.761122+00:00] ingest | Sage Learning 文档写作计划
+
+- proposal: `kprop_df1d64ef2ba74ab8625e176c75464b5d`
+- source revision: `sha256:32d41362a56ca6551c5c6619709c54381989ba40b948806279394117d0dcc27f`
+- target: `[[wiki/sources/_meta-2026-07-10-sage-learning-writing-plan-5bfd350c.md]]`
