@@ -100,3 +100,9 @@
 - proposal: `kprop_546a72e172b8d6c8377908f7672a3594`
 - source revision: `sha256:00b2bbb9b1bc6ceb3d990a6d5bc83290b11e5dde1dd21dcebbbb0b8e72759075`
 - target: `[[wiki/sources/23-v6-6上下文实现复盘-8ddd55f7.md]]`
+
+## [2026-07-15T15:45:15.307438+00:00] ingest | V6.9 Hermes 门面与工具恢复收口
+
+- proposal: `kprop_b3e3272b0fa4368b199314898c9848a3`
+- source revision: `sha256:1f46bc88c12202c4e8f9947b5eb4e9f0394162c399b331071415af56dd7621e0`
+- target: `[[wiki/sources/37-v6-9-hermes门面与工具恢复收口-190a3480.md]]`
