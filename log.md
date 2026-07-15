@@ -274,3 +274,9 @@
 - proposal: `kprop_72bae83de315d9e9741f566766afe9fb`
 - source revision: `sha256:80f9909970bbba09a7bea3347cd003aa34a0bd40231a98891d0473a66d3bdd6a`
 - target: `[[wiki/sources/22-sol子agent开发顺序与验收-23657801.md]]`
+
+## [2026-07-15T15:45:19.057800+00:00] ingest | 前端 Coding Workbench
+
+- proposal: `kprop_da01d2c4ddcf1952b8d052c2fd232095`
+- source revision: `sha256:1f226a2909052367d713f4eb235d58c0675e2854dbeeb859bf18f4d6e8d57989`
+- target: `[[wiki/sources/13-前端codingworkbench-6a18fec1.md]]`
