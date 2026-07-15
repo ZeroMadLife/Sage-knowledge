@@ -124,3 +124,9 @@
 - proposal: `kprop_b1445b063e012266b99046300789a16b`
 - source revision: `sha256:16ac67f7d09b876d3d463d9777a0bcdf459bf3650e0009ed48a90c3a332d7f1e`
 - target: `[[wiki/sources/39-v6-9工作台运行体验收口-8d6e25c5.md]]`
+
+## [2026-07-15T15:45:15.657761+00:00] ingest | Engine 与 Agent Loop
+
+- proposal: `kprop_4ed9dfb6eba8027f70be279332eff6e6`
+- source revision: `sha256:c68f4cfd6e0b8b730be634de66cb2f1e615751082df0599685e1cc202311a051`
+- target: `[[wiki/sources/04-engine与agentloop-41de0156.md]]`
