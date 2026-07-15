@@ -232,3 +232,9 @@
 - proposal: `kprop_2336a10449e6cd4036f18c80deb15829`
 - source revision: `sha256:a93120405c0ca7d09dee510564cb4c280987f881d9c63de3392d7327071b7ce3`
 - target: `[[wiki/sources/02-一次请求的完整生命周期-f767c38f.md]]`
+
+## [2026-07-15T15:45:17.962127+00:00] ingest | V6.9 聊天完成态与审计收束复盘
+
+- proposal: `kprop_92578a8d89ac7badff32ca243606f4d7`
+- source revision: `sha256:e29236393bc32fa8463c15c56231df12ff85a9f84f7dcad4508317106d7dad98`
+- target: `[[wiki/sources/42-v6-9聊天完成态与审计收束复盘-31e5af1a.md]]`
