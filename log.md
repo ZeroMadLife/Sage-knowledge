@@ -112,3 +112,9 @@
 - proposal: `kprop_60cdfd8beda4a3eeae0cd4b9724fc5ca`
 - source revision: `sha256:1b9559657ca0cab9ac294ac9188152b142200e6c04808bf7462f53577da4719d`
 - target: `[[wiki/sources/16-源码组件速查表-b66cf5b4.md]]`
+
+## [2026-07-15T15:45:15.472109+00:00] ingest | V7.2 P2.2-A 持久知识任务源码复盘
+
+- proposal: `kprop_5e06ca84fb6cfb5aa909c4f0ed9b02b1`
+- source revision: `sha256:7abe4c558b44f0d1aa32d0f7858ecfaf51999af8df17b4462b404521a161d00f`
+- target: `[[wiki/sources/51-v7-2-p2-2a持久知识任务源码复盘-d3091ec5.md]]`

@@ -26,3 +26,4 @@
 - [[wiki/sources/23-v6-6上下文实现复盘-8ddd55f7.md|V6.6 上下文实现复盘]] — obsidian
 - [[wiki/sources/37-v6-9-hermes门面与工具恢复收口-190a3480.md|V6.9 Hermes 门面与工具恢复收口]] — obsidian
 - [[wiki/sources/16-源码组件速查表-b66cf5b4.md|源码组件速查表]] — obsidian
+- [[wiki/sources/51-v7-2-p2-2a持久知识任务源码复盘-d3091ec5.md|V7.2 P2.2-A 持久知识任务源码复盘]] — obsidian
