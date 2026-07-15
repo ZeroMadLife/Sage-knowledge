@@ -364,3 +364,9 @@
 - proposal: `kprop_972df20308ef061a4c1ef2cc7899c00b`
 - source revision: `sha256:b30b8899c47ae2784329fc7622b5c7a1c84ef36a0f1cae7258d3c1abd1a44879`
 - target: `[[wiki/sources/21-sage-v6-6-v6-8上下文记忆dream设计-b62b964b.md]]`
+
+## [2026-07-15T15:45:21.275455+00:00] ingest | Hermes Studio 前端对标研究
+
+- proposal: `kprop_b73018ca6d4dae20ecf7c1cd309ee2d9`
+- source revision: `sha256:596ffb6f8e6083657a49daae42a517fb7a6dd76b4f9893c71f762c66e76bd79e`
+- target: `[[wiki/sources/20-hermes-studio前端对标研究-33ae513d.md]]`

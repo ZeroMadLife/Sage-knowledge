@@ -1,0 +1,120 @@
+---
+id: page_a2de522493d43e70a8d0bd7833ae513d
+type: source
+title: "Hermes Studio 前端对标研究"
+status: draft
+visibility: private
+sources:
+  - source_id: src_a2de522493d43e70a8d0bd7833ae513d
+    kind: obsidian
+    path: "20-Hermes-Studio前端对标研究.md"
+    revision: sha256:596ffb6f8e6083657a49daae42a517fb7a6dd76b4f9893c71f762c66e76bd79e
+raw_snapshot: raw/sources/obsidian/59/596ffb6f8e6083657a49daae42a517fb7a6dd76b4f9893c71f762c66e76bd79e.md
+parser_id: sage.markdown
+parser_version: 1.0.0
+parsed_document_id: pdoc_7c970855ab2f54294c3e6c19cb83ec38
+---
+
+# Hermes Studio 前端对标研究
+
+> 本页是可审核的来源投影。后续 LLM 综合必须继续保留来源 revision。
+
+## 来源内容
+
+---
+title: 20 - Hermes Studio 前端对标研究
+type: research
+project: Sage
+source_branch: dev/sage-v6
+verified_at: 2026-07-11
+tags: [Sage, Frontend, HermesStudio, UI, License]
+---
+
+# Hermes Studio 前端对标研究
+
+> [!abstract] 结论
+> Sage 可以完整对齐 Hermes Studio 的信息架构、交互模型、视觉密度和状态表达，但不能把“完全对齐”理解成直接复制源码。当前 Hermes Studio 是 BSL 1.1，商业 SaaS 或嵌入商业产品需要单独商业许可，直到 2029-05-10 才自动转 Apache 2.0。
+
+## 参考版本与技术栈
+
+- 参考仓库：`EKKOLearnAI/hermes-studio`
+- 研究提交：`01f3c78c3c97b12ed957fb7818a08376e9632f3c`
+- 前端：Vue 3、TypeScript、Pinia、Vue Router、Naive UI、SCSS、vue-i18n。
+- 编辑与工具：Monaco、xterm、Mermaid、Vue Flow。
+- 通信：REST、Socket.IO、WebSocket/EventSource。
+- 测试：Vitest、Vue Test Utils、Playwright。
+
+Sage 已经是 Vue 3 + Pinia，因此可以独立实现交互等价，不需要迁移 Hermes Studio 的 Koa、Socket.IO、Electron 或 server package。
+
+## Hermes Studio 的产品信息架构
+
+主要页面包括：
+
+```text
+Agent 工作区
+  ├── Chat / Session / History
+  ├── Coding Agents
+  ├── Files / Terminal
+  └── Group Chat / Workflow
+
+能力与资产
+  ├── Memory
+  ├── Skills / Plugins / MCP
+  ├── Models / Profiles
+  └── Jobs / Kanban / Channels
+
+运行与治理
+  ├── Usage / Performance / Logs
+  ├── Devices / Runtime Versions
+  └── Settings / Authentication
+```
+
+Chat 是主工作面，其他页面是管理面。Chat 内部继续拆成 session/sidebar、message timeline、composer，以及 files/terminal/outline 等 drawer 或 panel。
+
+## Sage 应对齐的 Coding Workbench
+
+| Hermes Studio 模式 | Sage 对齐方式 |
+| --- | --- |
+| 左侧 session 列表、active/streaming 状态、搜索 | 左侧 workspace + session/run history，显示 running/completed/failed/cancelled |
+| 中部消息流与可展开 tool trace | 保留 Sage typed events，统一 turn/tool/approval/diff card |
+| 输入区 model/context/tool trace 控制 | model、permission、plan、context usage、stop 放在稳定 composer toolbar |
+| 右侧 Files/Terminal/Outline | V6 先 Files/Diff/Run evidence；Terminal 延到 V7 sandbox 后 |
+| Memory 独立管理页 | Memory index、candidate proposal、provenance、approve/reject/edit |
+| Skills pending write approvals | Dream/Skill proposal 共用“候选变更”交互语言 |
+| 多语言和移动侧栏 | 中文默认；移动端所有隐藏面板必须有 drawer 入口 |
+
+真正需要“完全对齐”的是用户心智：会话在哪里、模型正在做什么、用了什么工具、改了什么、为什么停下、记住了什么、如何撤回。不是照搬组件文件名或后端协议。
+
+## 不应直接对齐的部分
+
+- Hermes Studio 的 Web Terminal 直接连接 node-pty；Sage 公网上线前没有 sandbox，V6 不应开放。
+- Hermes Studio 管理多个 Hermes profile；Sage V6 仍是单 server-owned workspace，不应伪装成多租户 workspace。
+- Hermes Studio 的 Coding Agents 页面主要代理外部 Codex/Claude runner；Sage 的核心是自己的 `CodingRuntime`，运行状态必须来自 typed event contract。
+- 不能直接复制 BSL 源码用于商业 SaaS；应以页面行为、截图和验收清单做 clean-room 式独立实现，或先取得商业许可。
+
+## UI 并行开发的安全边界
+
+前端可以先并行完成：
+
+1. Design tokens、中文文案、响应式 shell。
+2. Session/run 列表和空/加载/错误/断线状态。
+3. Message turn、tool trace、approval card 的纯展示组件。
+4. Memory proposal 与 diff inspector 的静态 fixture。
+
+必须等后端事件契约冻结后再接：
+
+- context usage 和 compact lifecycle；
+- parent-child agent tree；
+- dream proposal approve/reject/edit；
+- run terminal refresh；
+- live diff 与 cancellation。
+
+## 一手资料
+
+- [Hermes Studio README](https://github.com/EKKOLearnAI/hermes-studio/blob/01f3c78c3c97b12ed957fb7818a08376e9632f3c/README.md)
+- [Hermes Studio LICENSE](https://github.com/EKKOLearnAI/hermes-studio/blob/01f3c78c3c97b12ed957fb7818a08376e9632f3c/LICENSE)
+- [Client 路由](https://github.com/EKKOLearnAI/hermes-studio/blob/01f3c78c3c97b12ed957fb7818a08376e9632f3c/packages/client/src/router/index.ts)
+- [ChatPanel](https://github.com/EKKOLearnAI/hermes-studio/blob/01f3c78c3c97b12ed957fb7818a08376e9632f3c/packages/client/src/components/hermes/chat/ChatPanel.vue)
+- [MemoryView](https://github.com/EKKOLearnAI/hermes-studio/blob/01f3c78c3c97b12ed957fb7818a08376e9632f3c/packages/client/src/views/hermes/MemoryView.vue)
+
+延伸：[[13-前端CodingWorkbench]] · [[15-V6源码复盘与技术债]]

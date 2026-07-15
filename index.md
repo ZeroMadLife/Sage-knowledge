@@ -68,3 +68,4 @@
 - [[wiki/sources/15-v6源码复盘与技术债-cf68a087.md|V6 源码复盘与技术债]] — obsidian
 - [[wiki/sources/28-v6-9中文工作台与会话导航复盘-ef4ab81d.md|V6.9 中文工作台与会话导航复盘]] — obsidian
 - [[wiki/sources/21-sage-v6-6-v6-8上下文记忆dream设计-b62b964b.md|Sage V6.6-V6.8 上下文、记忆与 Dream 设计]] — obsidian
+- [[wiki/sources/20-hermes-studio前端对标研究-33ae513d.md|Hermes Studio 前端对标研究]] — obsidian
