@@ -280,3 +280,9 @@
 - proposal: `kprop_da01d2c4ddcf1952b8d052c2fd232095`
 - source revision: `sha256:1f226a2909052367d713f4eb235d58c0675e2854dbeeb859bf18f4d6e8d57989`
 - target: `[[wiki/sources/13-前端codingworkbench-6a18fec1.md]]`
+
+## [2026-07-15T15:45:19.237219+00:00] ingest | V7 部署流程与 GitHub Actions CI/CD 学习路线
+
+- proposal: `kprop_9ef522012bcf2bf1d6edb60891d1096b`
+- source revision: `sha256:c3ec38b1d98b221868458ebfcba51c134413ae0d10af2834dd9f1efa98731760`
+- target: `[[wiki/sources/49-v7部署流程与github-actions-cicd学习路线-a4f3eed9.md]]`
