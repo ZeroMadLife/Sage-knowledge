@@ -16,3 +16,9 @@
 - proposal: `kprop_f9a5f403a2099967f0e3e2c05f269b38`
 - source revision: `sha256:58ae71f39b48e27cedcd94eb272f5bcdec010bdb8971fd7e78aa55f5653bcb59`
 - target: `[[wiki/sources/47-v7-2可审核知识沉淀源码复盘-bb7b157c.md]]`
+
+## [2026-07-15T06:26:10.602230+00:00] ingest | V7.2 可审核知识沉淀源码复盘
+
+- proposal: `kprop_4021df57335bd20d4c9764b2eaba9365`
+- source revision: `sha256:92fd74f61bad23b883fc68f479577630e46936ffbda2141da5c89db9942320cf`
+- target: `[[wiki/sources/47-v7-2可审核知识沉淀源码复盘-bb7b157c.md]]`
