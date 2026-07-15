@@ -46,3 +46,9 @@
 - proposal: `kprop_7e3d651ee6ad5288e48b1f9f707e56d1`
 - source revision: `sha256:1451a2cb585e5fbdf55e62d1872f1d90c2443d9e4713d32ac10430da47207c98`
 - target: `[[wiki/sources/00-reading-map-54a2e4a5.md]]`
+
+## [2026-07-15T15:45:14.620756+00:00] ingest | V7 个人助手知识进化与飞书架构
+
+- proposal: `kprop_b82fbdd8f60d0de26f47131b8fb69a4b`
+- source revision: `sha256:0c24927042f5f3fa44d30efb741d1427c1a4ed2d7515df92e415856740f23c93`
+- target: `[[wiki/sources/41-v7个人助手知识进化与飞书架构-4016c1f2.md]]`
