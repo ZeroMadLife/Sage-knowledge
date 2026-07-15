@@ -22,3 +22,4 @@
 - [[wiki/sources/53-v7-2本地知识工作区503恢复与p2-2b起点-660b9e38.md|V7.2 本地知识工作区 503 恢复与 P2.2-B 起点]] — obsidian
 - [[wiki/sources/09-memory系统-db36952c.md|Memory 系统]] — obsidian
 - [[wiki/sources/41-v6-9前端完整交付地图-3a82344c.md|V6.9 前端完整交付地图]] — obsidian
+- [[wiki/sources/45-v7-p1-1共享shell与对话形变源码复盘-f3e08961.md|V7-P1.1 共享 Shell 与对话形变源码复盘]] — obsidian

@@ -88,3 +88,9 @@
 - proposal: `kprop_76ea39e0f65f8c7c434df9cae6fb82cb`
 - source revision: `sha256:6db8958a8b053fab49ce8a63d18fe2de7dd3e77e1b030cd0288efc7cd5a65341`
 - target: `[[wiki/sources/41-v6-9前端完整交付地图-3a82344c.md]]`
+
+## [2026-07-15T15:45:15.152679+00:00] ingest | V7-P1.1 共享 Shell 与对话形变源码复盘
+
+- proposal: `kprop_00672d9a5258e126d3c61cb2643eff8b`
+- source revision: `sha256:71f15f7b228aba1d69bafc85cda6fa971c6a103ec26a0f598a2e9805e41cfe87`
+- target: `[[wiki/sources/45-v7-p1-1共享shell与对话形变源码复盘-f3e08961.md]]`
