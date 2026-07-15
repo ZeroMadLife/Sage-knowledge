@@ -65,3 +65,4 @@
 - [[wiki/sources/46-v7本地联调与worktree启动链路-c9dd2007.md|V7 本地联调与 worktree 启动链路]] — obsidian
 - [[wiki/sources/17-动手实验-2da2e4b5.md|Sage 源码动手实验]] — obsidian
 - [[wiki/sources/29-v6-9交付收口与下一阶段预告-8dc865e0.md|V6.9 交付收口与下一阶段预告]] — obsidian
+- [[wiki/sources/15-v6源码复盘与技术债-cf68a087.md|V6 源码复盘与技术债]] — obsidian

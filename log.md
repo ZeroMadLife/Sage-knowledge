@@ -346,3 +346,9 @@
 - proposal: `kprop_e99dce46a0f32cba644546d9e0a3c2e6`
 - source revision: `sha256:2f79968e8780da4f5117bb95caf5cc6668eb95ed47562623e2162b946516308c`
 - target: `[[wiki/sources/29-v6-9交付收口与下一阶段预告-8dc865e0.md]]`
+
+## [2026-07-15T15:45:20.878754+00:00] ingest | V6 源码复盘与技术债
+
+- proposal: `kprop_1e404e1be26099fb603c514b73be1911`
+- source revision: `sha256:5a2b3efd66cac08ac20154e5955630f8677c946f1c736177ab9bd8c5219a1799`
+- target: `[[wiki/sources/15-v6源码复盘与技术债-cf68a087.md]]`
