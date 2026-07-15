@@ -172,3 +172,9 @@
 - proposal: `kprop_96367e5b4154e1c6c9a4a667dfd41ee4`
 - source revision: `sha256:a96258be1a538bdd242c7fcbec0a92b356a922862324d34d44280e41d28b2511`
 - target: `[[wiki/sources/34-v6-9时间线404修复与v7控制面启动-09bea821.md]]`
+
+## [2026-07-15T15:45:16.397325+00:00] ingest | Context 与 Prompt Caching
+
+- proposal: `kprop_d01e64a00b5ba723d58e42fa27b1da49`
+- source revision: `sha256:a3081504fb39361622ebc9f638f31c891979abe31b7b4d436f867b07a7791003`
+- target: `[[wiki/sources/05-context与promptcaching-789b3b46.md]]`
