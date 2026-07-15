@@ -1,0 +1,155 @@
+---
+id: page_b49f789aa7b0ed05f0882250aad6f4b4
+type: source
+title: "Workspace、Git 与 Diff"
+status: draft
+visibility: private
+sources:
+  - source_id: src_b49f789aa7b0ed05f0882250aad6f4b4
+    kind: obsidian
+    path: "08-Workspace-Git与Diff.md"
+    revision: sha256:de97f64f9496f270edf70040446d48dbc212e9e4c1c0dd4d6f0e2de7a7672810
+raw_snapshot: raw/sources/obsidian/de/de97f64f9496f270edf70040446d48dbc212e9e4c1c0dd4d6f0e2de7a7672810.md
+parser_id: sage.markdown
+parser_version: 1.0.0
+parsed_document_id: pdoc_aab39b398af560bc0188d83fdbe51dd4
+---
+
+# Workspace、Git 与 Diff
+
+> 本页是可审核的来源投影。后续 LLM 综合必须继续保留来源 revision。
+
+## 来源内容
+
+---
+title: 08 - Workspace、Git 与 Diff
+type: learning
+project: Sage
+source_branch: dev/sage-v6
+status: implemented-with-risks
+verified_at: 2026-07-10
+tags: [Sage, Workspace, Git, Diff, Evidence]
+---
+
+# Workspace、Git 与 Diff
+
+> [!abstract] 本章目标
+> 分清 workspace 安全路径、Git 状态和一次 run 的 diff 证据是三件不同的事。
+
+## WorkspaceContext：路径边界
+
+`WorkspaceContext.path(raw_path)`：
+
+1. 相对路径基于 workspace root。
+2. 调用 `resolve()`。
+3. 通过 `relative_to(root)` 验证没有逃逸。
+
+因此 `../../secret` 和解析后落到 workspace 外的 symlink 都应被拒绝。
+
+Workspace 还记录 fresh read 和 self-authored fingerprint，为先读后改策略提供证据。
+
+## Git 状态
+
+`CodingRuntime.git_status()` 在服务端 workspace 下运行：
+
+```text
+git branch --show-current
+git status --porcelain
+```
+
+它用于显示 branch 和 dirty files，但不负责生成 run diff，也不能说明某个变更是谁造成的。
+
+网页端能看到的是 Sage 管理的服务端 checkout。浏览器本身不能直接读取用户电脑上的本地仓库。
+
+## WorkspaceDiffTracker
+
+一次 run 前：
+
+```text
+snapshot_before_run()
+  -> 扫描候选文件
+  -> 记录 size/hash/text/content
+```
+
+一次 run 后：
+
+```text
+snapshot_after_run(run_id)
+  -> 再扫描
+  -> 比较 added/modified/deleted
+  -> 生成 bounded unified diff
+  -> WorkspaceDiff
+```
+
+然后 Runtime 把 `diff.json` 写到该 session 的 run evidence 目录，并发送 `workspace_diff_ready` 摘要。
+
+## 安全与边界
+
+扫描会忽略：
+
+- `.git`、`.coding`、依赖和缓存目录
+- `.env`、key 等敏感文件模式
+- symlink
+- 二进制内容
+- 超出内容保存限制的大文件
+
+大文件仍计算 hash，因此可以知道“变了”，但不一定保存完整 before/after patch。
+
+## Artifact 模型
+
+每个 change 包含：
+
+```text
+path
+status
+before_hash / after_hash
+diff
+truncated
+binary
+```
+
+WebSocket 只发送：
+
+```json
+{
+  "type": "workspace_diff_ready",
+  "run_id": "run_xxx",
+  "changed_files": ["README.md"],
+  "file_count": 1,
+  "truncated": false
+}
+```
+
+完整内容通过 `GET .../runs/{run_id}/diff` 加载。
+
+## Diff 与归因不是一回事
+
+当前 before/after 比较能够证明 run 时间窗内 workspace 发生了变化，但如果用户或其他进程同时改文件，单纯快照不能完整证明“这是 Agent 改的”。
+
+V6.5 复盘时应继续检查：
+
+- 并发外部修改如何标记
+- 工具写入与最终文件 hash 如何关联
+- rename 是否被当成 delete + add
+- 大文件和总文件数截断语义
+
+当前测试已经覆盖 symlink 不跟随、大文件 hash 检测和 truncation count，但并发归因仍是更高阶问题。
+
+## 测试入口
+
+- `tests/core/coding/test_workspace.py`
+- `tests/core/coding/test_workspace_diff.py`
+- `tests/api/test_coding_routes.py` 的 run diff endpoint
+- `frontend/src/components/coding/files/CodingDiffDrawer.test.ts`
+
+## 动手
+
+用 tracker 依次制造新增、修改、删除、二进制和大文件五种变化，观察 `WorkspaceDiff.to_dict()`。再在 snapshot 之间手动从另一个终端改同一文件，思考当前 artifact 能否可靠归因。
+
+## 自测
+
+1. `git status` 为什么不能替代 `WorkspaceDiffTracker`？
+2. 大文件为什么应保存 hash 而不是静默忽略？
+3. Diff 证明了什么，又没有证明什么？
+
+下一章：[[09-Memory系统]]

@@ -316,3 +316,9 @@
 - proposal: `kprop_475ef3bc0fae975b8114a218905a5ea1`
 - source revision: `sha256:a1295e2fc78020ed50dffa1bd51e48480a366c2a18a9d2afcdfb5ac9e5934f0c`
 - target: `[[wiki/sources/30-v6-9阶段产出与git收口记录-6b48f807.md]]`
+
+## [2026-07-15T15:45:20.121176+00:00] ingest | Workspace、Git 与 Diff
+
+- proposal: `kprop_153d958726ddb4f8843be02f8452ae41`
+- source revision: `sha256:de97f64f9496f270edf70040446d48dbc212e9e4c1c0dd4d6f0e2de7a7672810`
+- target: `[[wiki/sources/08-workspace-git与diff-aad6f4b4.md]]`

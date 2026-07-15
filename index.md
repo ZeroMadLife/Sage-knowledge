@@ -60,3 +60,4 @@
 - [[wiki/sources/24-v6-6运行时接线与api复盘-2cc66fe4.md|V6.6 Runtime 接线与 API 复盘]] — obsidian
 - [[wiki/sources/14-benchmark与测试体系-eb36c03f.md|Benchmark 与测试体系]] — obsidian
 - [[wiki/sources/30-v6-9阶段产出与git收口记录-6b48f807.md|V6.9 阶段产出与 Git 收口记录]] — obsidian
+- [[wiki/sources/08-workspace-git与diff-aad6f4b4.md|Workspace、Git 与 Diff]] — obsidian
