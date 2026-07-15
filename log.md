@@ -130,3 +130,9 @@
 - proposal: `kprop_4ed9dfb6eba8027f70be279332eff6e6`
 - source revision: `sha256:c68f4cfd6e0b8b730be634de66cb2f1e615751082df0599685e1cc202311a051`
 - target: `[[wiki/sources/04-engine与agentloop-41de0156.md]]`
+
+## [2026-07-15T15:45:15.744845+00:00] ingest | V7 固定主工作区与小版本开发约定
+
+- proposal: `kprop_32e17f2b08e3bd55c08f3bd0469e42ae`
+- source revision: `sha256:1358aa1914b5dc421cd3af97951d28f9d223036680d751dfcdb5f35acaa66fc9`
+- target: `[[wiki/sources/52-v7固定主工作区与小版本开发约定-54d428ce.md]]`

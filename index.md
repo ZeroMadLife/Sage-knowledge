@@ -29,3 +29,4 @@
 - [[wiki/sources/51-v7-2-p2-2a持久知识任务源码复盘-d3091ec5.md|V7.2 P2.2-A 持久知识任务源码复盘]] — obsidian
 - [[wiki/sources/39-v6-9工作台运行体验收口-8d6e25c5.md|V6.9 工作台运行体验收口]] — obsidian
 - [[wiki/sources/04-engine与agentloop-41de0156.md|Engine 与 Agent Loop]] — obsidian
+- [[wiki/sources/52-v7固定主工作区与小版本开发约定-54d428ce.md|V7 固定主工作区与小版本开发约定]] — obsidian
