@@ -72,3 +72,4 @@
 - [[wiki/sources/18-上下文压缩对标研究-02ec18cd.md|上下文压缩对标研究]] — obsidian
 - [[wiki/sources/60-v7-3-0历史知识债务收口与自治审核-0b3140e6.md|V7.3.0 历史知识债务收口与自治审核]] — obsidian
 - [[wiki/sources/61-v7-3-1版本化hybrid-rag索引源码复盘-26a2ed52.md|V7.3.1 版本化 Hybrid RAG 索引源码复盘]] — obsidian
+- [[wiki/sources/62-v7-3-2证据检索与agent工具接线复盘-73549301.md|V7.3.2 证据检索与 Agent 工具接线复盘]] — obsidian

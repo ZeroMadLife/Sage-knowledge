@@ -388,3 +388,9 @@
 - proposal: `kprop_83c1bea5cc74fbd54fb6edccdd17568d`
 - source revision: `sha256:cde3567d9bf5bf3a693f71fb93451e90c0d731a8a5be926eb26daaf178e93048`
 - target: `[[wiki/sources/61-v7-3-1版本化hybrid-rag索引源码复盘-26a2ed52.md]]`
+
+## [2026-07-16T00:46:14.911573+00:00] ingest | V7.3.2 证据检索与 Agent 工具接线复盘
+
+- proposal: `kprop_d15dcbcc46ed2a65177ad5139e0dc250`
+- source revision: `sha256:3740dc553a60e2f3ac62ab8a22caf756906f4fd39a91745d4119efd1ed9578a8`
+- target: `[[wiki/sources/62-v7-3-2证据检索与agent工具接线复盘-73549301.md]]`
