@@ -424,3 +424,9 @@
 - proposal: `kprop_3b24803f1b0bbd5daf7c46bbd82515dc`
 - source revision: `sha256:8e766538423fa627bf32c33fe70206cdadf1e69ba4bffa7c18578306af009a4e`
 - target: `[[wiki/sources/66-v7-5-1-目标驱动社区与缺口分析-4558eafd.md]]`
+
+## [2026-07-16T04:00:12.182750+00:00] ingest | V7.5.2 知识图谱工作台与前端收口
+
+- proposal: `kprop_cd8ce6b79fbd2f93b9c747be68176157`
+- source revision: `sha256:419ab15fb3b02441e940fc840d345c91a02f6574cd473e53e013dd3f0e40fffa`
+- target: `[[wiki/sources/67-v7-5-2-知识图谱工作台与前端收口-33c3ce87.md]]`
