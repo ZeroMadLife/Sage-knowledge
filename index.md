@@ -74,3 +74,4 @@
 - [[wiki/sources/61-v7-3-1版本化hybrid-rag索引源码复盘-26a2ed52.md|V7.3.1 版本化 Hybrid RAG 索引源码复盘]] — obsidian
 - [[wiki/sources/62-v7-3-2证据检索与agent工具接线复盘-73549301.md|V7.3.2 证据检索与 Agent 工具接线复盘]] — obsidian
 - [[wiki/learnings/sage-上下文压缩恢复证据集-3d646069.md|Sage 上下文压缩恢复证据集]] — agent_learning
+- [[wiki/sources/63-v7-3-3证据门禁与自主成长闭环复盘-b6c94945.md|V7.3.3 证据门禁与自主成长闭环复盘]] — obsidian

@@ -400,3 +400,9 @@
 - proposal: `kprop_697dc31d93933685ae813ffc0e34a2b3`
 - source revision: `sha256:941a5e09897af02c0e45bfb4f012bcfc849cbb3a2df359a6fdc9192e7e136149`
 - target: `[[wiki/learnings/sage-上下文压缩恢复证据集-3d646069.md]]`
+
+## [2026-07-16T01:09:34.571553+00:00] ingest | V7.3.3 证据门禁与自主成长闭环复盘
+
+- proposal: `kprop_9713f4f2e426b61d114c25868c5c42ea`
+- source revision: `sha256:5e12cc71a0fb01ba074b4e5afe892e641c23ad8f53d194df15b039e6f7d0a9be`
+- target: `[[wiki/sources/63-v7-3-3证据门禁与自主成长闭环复盘-b6c94945.md]]`
