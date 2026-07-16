@@ -412,3 +412,9 @@
 - proposal: `kprop_06c636e1d51edd7ace5830b18b1e9c74`
 - source revision: `sha256:9ba91ae5afd1214284d18344c1e4e9f09e1882a5715136ceab3560e324f96fa7`
 - target: `[[wiki/sources/64-v7-4-knowledge-workspace-ui设计-a98ee248.md]]`
+
+## [2026-07-16T02:54:31.513617+00:00] ingest | V7.5.0 本地版本化知识图谱
+
+- proposal: `kprop_feb4cc760fcd4ec23ad04a8f844142fd`
+- source revision: `sha256:dbe7132aa54367f96aaaf6908560dd1ba7ea28d7a1b9308fdade65ef67f39760`
+- target: `[[wiki/sources/65-v7-5-0-本地版本化知识图谱-5469139b.md]]`

@@ -76,3 +76,4 @@
 - [[wiki/learnings/sage-上下文压缩恢复证据集-3d646069.md|Sage 上下文压缩恢复证据集]] — agent_learning
 - [[wiki/sources/63-v7-3-3证据门禁与自主成长闭环复盘-b6c94945.md|V7.3.3 证据门禁与自主成长闭环复盘]] — obsidian
 - [[wiki/sources/64-v7-4-knowledge-workspace-ui设计-a98ee248.md|V7.4 Knowledge Workspace UI 设计]] — obsidian
+- [[wiki/sources/65-v7-5-0-本地版本化知识图谱-5469139b.md|V7.5.0 本地版本化知识图谱]] — obsidian
