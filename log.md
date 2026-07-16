@@ -418,3 +418,9 @@
 - proposal: `kprop_feb4cc760fcd4ec23ad04a8f844142fd`
 - source revision: `sha256:dbe7132aa54367f96aaaf6908560dd1ba7ea28d7a1b9308fdade65ef67f39760`
 - target: `[[wiki/sources/65-v7-5-0-本地版本化知识图谱-5469139b.md]]`
+
+## [2026-07-16T03:16:20.940690+00:00] ingest | V7.5.1 目标驱动社区与缺口分析
+
+- proposal: `kprop_3b24803f1b0bbd5daf7c46bbd82515dc`
+- source revision: `sha256:8e766538423fa627bf32c33fe70206cdadf1e69ba4bffa7c18578306af009a4e`
+- target: `[[wiki/sources/66-v7-5-1-目标驱动社区与缺口分析-4558eafd.md]]`
