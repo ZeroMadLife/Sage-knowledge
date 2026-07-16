@@ -406,3 +406,9 @@
 - proposal: `kprop_9713f4f2e426b61d114c25868c5c42ea`
 - source revision: `sha256:5e12cc71a0fb01ba074b4e5afe892e641c23ad8f53d194df15b039e6f7d0a9be`
 - target: `[[wiki/sources/63-v7-3-3证据门禁与自主成长闭环复盘-b6c94945.md]]`
+
+## [2026-07-16T02:12:32.242594+00:00] ingest | V7.4 Knowledge Workspace UI 设计
+
+- proposal: `kprop_06c636e1d51edd7ace5830b18b1e9c74`
+- source revision: `sha256:9ba91ae5afd1214284d18344c1e4e9f09e1882a5715136ceab3560e324f96fa7`
+- target: `[[wiki/sources/64-v7-4-knowledge-workspace-ui设计-a98ee248.md]]`
