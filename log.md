@@ -394,3 +394,9 @@
 - proposal: `kprop_d15dcbcc46ed2a65177ad5139e0dc250`
 - source revision: `sha256:3740dc553a60e2f3ac62ab8a22caf756906f4fd39a91745d4119efd1ed9578a8`
 - target: `[[wiki/sources/62-v7-3-2证据检索与agent工具接线复盘-73549301.md]]`
+
+## [2026-07-16T01:00:37.061498+00:00] learning | Sage 上下文压缩恢复证据集
+
+- proposal: `kprop_697dc31d93933685ae813ffc0e34a2b3`
+- source revision: `sha256:941a5e09897af02c0e45bfb4f012bcfc849cbb3a2df359a6fdc9192e7e136149`
+- target: `[[wiki/learnings/sage-上下文压缩恢复证据集-3d646069.md]]`
